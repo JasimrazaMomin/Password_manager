@@ -1,0 +1,65 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.AddPassword{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lavender;
+  width: 60%;
+  height: 300px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.AddPassword button, input {
+  width: 200px;
+  height: 35px;
+  border: darkorchid;
+  border-radius: 1px;
+  margin: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  background-color: orchid;
+}
+
+button:active {
+  transform: scale(0.98); 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.GetPassword {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid red;
+  background-color: lavenderblush;
+  width: 60%;
+  height: 300px;
+  align-items: center;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.GetPasswordResult {
+  font-size: 20px;
+  padding-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.GetPassword input {
+  border: 1px solid black;
+}
